@@ -1,0 +1,1653 @@
+{
+    "scriptConfig": {
+        "adminPermission": "admin.permissao",
+        "threadMode": false,
+        "targetMode": true,
+        "spillOilAndnozzleEnergy": true,
+        "discountsChance": 30,
+        "discountsInterval": 60,
+        "discountsNotifyAnnouncement": true,
+        "fuelTypes": {
+            "gasoline": {
+                "name": "Gasolina",
+                "price": 5,
+                "priceDiscount": 3,
+                "consumptionBase": 1.0
+            },
+            "diesel": {
+                "name": "Diesel",
+                "price": 3,
+                "priceDiscount": 2,
+                "consumptionBase": 0.6
+            },
+            "gas": {
+                "name": "Gás",
+                "price": 2,
+                "priceDiscount": 1,
+                "consumptionBase": 0.75
+            },
+            "ethanol": {
+                "name": "Etanol",
+                "price": 2,
+                "priceDiscount": 1,
+                "consumptionBase": 1.3
+            },
+            "avGas": {
+                "name": "AV Gás",
+                "price": 7,
+                "priceDiscount": 5,
+                "consumptionBase": 1.6
+            },
+            "energy": {
+                "name": "Energia",
+                "price": 3,
+                "priceDiscount": 2,
+                "consumptionBase": 0.75
+            }
+        },
+        "speedConsumptionMultiply": 0.01,
+        "fuelRPMConsumption": {
+            "1.0": 1.0,
+            "0.9": 0.9,
+            "0.8": 0.8,
+            "0.7": 0.7,
+            "0.6": 0.6,
+            "0.5": 0.5,
+            "0.4": 0.4,
+            "0.3": 0.3,
+            "0.2": 0.02,
+            "0.1": 0.01,
+            "0.0": 0.01
+        },
+        "fuelClassConsumption": {
+            "Compacts": "gas",
+            "Sedans": "ethanol",
+            "SUVs": "gasoline",
+            "Coupes": "ethanol",
+            "Muscle": "ethanol",
+            "Sports-Classics": "gasoline",
+            "Sports": "gasoline",
+            "Super": "gasoline",
+            "Motorcycles": "gasoline",
+            "Off-road": "gasoline",
+            "Industrial": "diesel",
+            "Utility": "diesel",
+            "Vans": "diesel",
+            "Cycles": "none",
+            "Boats": "diesel",
+            "Helicopters": "avGas",
+            "Planes": "avGas",
+            "Service": "gasoline",
+            "Emergency": "gasoline",
+            "Military": "gasoline",
+            "Commercial": "diesel",
+            "Trains": "diesel",
+            "Open-Wheel": "ethanol"
+        },
+        "electricalVehicles": {
+            "powersurge": true,
+            "neon": true,
+            "raiden": true,
+            "tesla": true,
+            "teslaprior": true,
+            "cyclone": true,
+            "tezeract": true,
+            "imorgon": true,
+            "voltic": true,
+            "dilettante": true,
+            "surge": true,
+            "khamelion": true
+        },
+        "gallonMaxFuel": 20.0,
+        "batteryMaxEnergy": 30.0,
+        "waterPumpsModels": [-132092731],
+        "washPrice": 50,
+        "maxWashTime": 60,
+        "nozzleModifiedPosition": {
+            "bati": {
+                "offset": [0.0,-0.075,0.0],
+                "angle": 0.0
+            },
+            "bati2": {
+                "offset": [0.0,-0.075,0.0],
+                "angle": 0.0
+            },
+            "akuma": {
+                "offset": [0.0,0.1,0.0],
+                "angle": 0.0
+            },
+            "sanchez": {
+                "offset": [0.0,0.073,0.035],
+                "angle": 0.0
+            },
+            "sanchez2": {
+                "offset": [0.0,0.073,0.035],
+                "angle": 0.0
+            },
+            "bf400": {
+                "offset": [0.0,0.073,0.035],
+                "angle": 0.0
+            },
+            "avarus": {
+                "offset": [0.0,0.075,0.0],
+                "angle": 0.0
+            },
+            "carbonrs": {
+                "offset": [0.0,0.095,0.0],
+                "angle": 0.0
+            },
+            "chimera": {
+                "offset": [0.0,0.075,0.0],
+                "angle": 0.0
+            },
+            "cliffhanger": {
+                "offset": [0.0,-0.015,0.0],
+                "angle": 0.0
+            },
+            "daemon": {
+                "offset": [0.0,0.075,0.0],
+                "angle": 0.0
+            },
+            "daemon2": {
+                "offset": [0.0,0.075,0.0],
+                "angle": 0.0
+            },
+            "defiler": {
+                "offset": [0.0,0.17,0.0],
+                "angle": 0.0
+            },
+            "diablous": {
+                "offset": [0.0,0.015,0.0],
+                "angle": 0.0
+            },
+            "diablous2": {
+                "offset": [0.0,0.015,0.0],
+                "angle": 0.0
+            },
+            "double": {
+                "offset": [0.0,0.095,0.0],
+                "angle": 0.0
+            },
+            "enduro": {
+                "offset": [0.04,0.075,0.02],
+                "angle": 0.0
+            },
+            "esskey": {
+                "offset": [0.0,0.040,0.0],
+                "angle": 0.0
+            },
+            "faggio2": {
+                "offset": [0.0,-0.1,-0.05],
+                "angle": 0.0
+            },
+            "faggio3": {
+                "offset": [0.0,-0.1,-0.05],
+                "angle": 0.0
+            },
+            "fcr": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "fcr2": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "gargoyle": {
+                "offset": [0.0,-0.015,0.0],
+                "angle": 0.0
+            },
+            "hakuchou": {
+                "offset": [0.0,0.1,0.0],
+                "angle": 0.0
+            },
+            "hakuchou2": {
+                "offset": [0.0,0.04,0.0],
+                "angle": 0.0
+            },
+            "hexer": {
+                "offset": [0.0,0.15,0.05],
+                "angle": 0.0
+            },
+            "innovation": {
+                "offset": [0.0,0.05,0.0],
+                "angle": 0.0
+            },
+            "manchez": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "manchez2": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "manchez3": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "nemesis": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "pcj": {
+                "offset": [0.0,0.13,0.0],
+                "angle": 0.0
+            },
+            "rrocket": {
+                "offset": [0.0,-0.8,0.1],
+                "angle": 0.0
+            },
+            "ratbike": {
+                "offset": [0.0,0.03,0.0],
+                "angle": 0.0
+            },
+            "reever": {
+                "offset": [0.0,0.15,0.0],
+                "angle": 0.0
+            },
+            "ruffian": {
+                "offset": [0.0,0.12,0.05],
+                "angle": 0.0
+            },
+            "shinobi": {
+                "offset": [0.0,0.05,0.0],
+                "angle": 0.0
+            },
+            "stryder": {
+                "offset": [0.0,0.11,0.05],
+                "angle": 0.0
+            },
+            "thrust": {
+                "offset": [0.0,0.05,0.0],
+                "angle": 0.0
+            },
+            "vader": {
+                "offset": [0.0,0.185,0.0],
+                "angle": 0.0
+            },
+            "vindicator": {
+                "offset": [0.0,0.04,0.0],
+                "angle": 0.0
+            },
+            "vortex": {
+                "offset": [0.0,0.04,0.0],
+                "angle": 0.0
+            },
+            "wolfsbane": {
+                "offset": [0.0,0.07,0.0],
+                "angle": 0.0
+            },
+            "zombiea": {
+                "offset": [0.0,0.15,0.0],
+                "angle": 0.0
+            },
+            "zombieb": {
+                "offset": [0.0,0.1,0.0],
+                "angle": 0.0
+            },
+            "tiptruck": {
+                "offset": [0.0,0.0,0.0],
+                "angle": 3.0
+            },
+            "hauler": {
+                "offset": [0.0,0.0,0.0],
+                "angle": -2.0
+            },
+            "hauler2": {
+                "offset": [0.0,0.0,0.0],
+                "angle": -2.0
+            },
+            "alphaz1": {
+                "offset": [-0.13,0.0,0.0],
+                "angle": 0.0
+            },
+            "avenger": {
+                "offset": [-0.7,0.0,-0.2],
+                "angle": 0.0
+            },
+            "avenger2": {
+                "offset": [-0.7,0.0,-0.2],
+                "angle": 0.0
+            },
+            "avenger3": {
+                "offset": [-0.7,0.0,-0.2],
+                "angle": 0.0
+            },
+            "avenger4": {
+                "offset": [-0.7,0.0,-0.2],
+                "angle": 0.0
+            },
+            "blimp": {
+                "offset": [-1.0,0.0,0.0],
+                "angle": 20.0
+            },
+            "cuban800": {
+                "offset": [-1.5,1.0,0.2],
+                "angle": 0.0
+            },
+            "raiju": {
+                "offset": [-2.1,0.0,0.5],
+                "angle": 0.0
+            },
+            "hydra": {
+                "offset": [0.0,0.0,0.1],
+                "angle": 0.0
+            },
+            "luxor": {
+                "offset": [-0.55,2.5,0.1],
+                "angle": 0.0
+            },
+            "luxor2": {
+                "offset": [-0.55,2.5,0.1],
+                "angle": 0.0
+            },
+            "mogul": {
+                "offset": [-1.0,0.0,-0.3],
+                "angle": 0.0
+            },
+            "nokota": {
+                "offset": [0.0,0.0,0.4],
+                "angle": 330.0
+            },
+            "bombushka": {
+                "offset": [-6.0,0.0,1.0],
+                "angle": 0.0
+            },
+            "seabreeze": {
+                "offset": [0.0,-0.5,0.0],
+                "angle": 0.0
+            },
+            "streamer216": {
+                "offset": [-2.3,1.3,0.05],
+                "angle": 330.0
+            },
+            "tula": {
+                "offset": [-0.45,0.0,-0.2],
+                "angle": 0.0
+            },
+            "molotok": {
+                "offset": [0.3,0.0,0.1],
+                "angle": 0.0
+            },
+            "velum": {
+                "offset": [-0.1,-0.3,0.0],
+                "angle": 0.0
+            },
+            "velum2": {
+                "offset": [-0.1,-0.3,0.0],
+                "angle": 0.0
+            },
+            "volatol": {
+                "offset": [-2.5,0.0,0.1],
+                "angle": 0.0
+            },
+            "akula": {
+                "offset": [-0.6,0.0,0.0],
+                "angle": 0.0
+            },
+            "annihilator": {
+                "offset": [-0.6,0.0,0.0],
+                "angle": 0.0
+            },
+            "annihilator2": {
+                "offset": [-0.2,0.0,0.0],
+                "angle": 0.0
+            },
+            "cargobob": {
+                "offset": [-0.05,-3.5,0.0],
+                "angle": 0.0
+            },
+            "cargobob2": {
+                "offset": [-0.05,-3.5,0.0],
+                "angle": 0.0
+            },
+            "cargobob3": {
+                "offset": [-0.05,-3.5,0.0],
+                "angle": 0.0
+            },
+            "cargobob4": {
+                "offset": [-0.05,-3.5,0.0],
+                "angle": 0.0
+            },
+            "conada": {
+                "offset": [-0.3,0.0,0.0],
+                "angle": 0.0
+            },
+            "conada2": {
+                "offset": [-0.3,0.0,0.0],
+                "angle": 0.0
+            },
+            "hunter": {
+                "offset": [-1.45,0.0,0.0],
+                "angle": 0.0
+            },
+            "Savage": {
+                "offset": [-0.2,1.0,0.0],
+                "angle": 0.0
+            },
+            "seasparrow": {
+                "offset": [0.2,0.0,0.0],
+                "angle": 0.0
+            },
+            "seasparrow2": {
+                "offset": [0.2,0.0,0.0],
+                "angle": 0.0
+            },
+            "seasparrow3": {
+                "offset": [0.2,0.0,0.0],
+                "angle": 0.0
+            },
+            "skylift": {
+                "offset": [-0.9,0.0,0.0],
+                "angle": 0.0
+            },
+            "supervolito": {
+                "offset": [-0.1,0.0,0.0],
+                "angle": 0.0
+            },
+            "supervolito2": {
+                "offset": [-0.1,0.0,0.0],
+                "angle": 0.0
+            },
+            "swift": {
+                "offset": [0.1,0.0,0.0],
+                "angle": 0.0
+            },
+            "swift2": {
+                "offset": [0.1,0.0,0.0],
+                "angle": 0.0
+            },
+            "valkyrie": {
+                "offset": [0.1,0.0,0.3],
+                "angle": 0.0
+            },
+            "valkyrie2": {
+                "offset": [0.1,0.0,0.3],
+                "angle": 0.0
+            },
+            "jet": {
+                "offset": [20.0,20.0,-3.15],
+                "angle": 0.0
+            },
+            "cargoplane": {
+                "offset": [40.0,11.4,0.65],
+                "angle": 0.0
+            },
+            "cargoplane2": {
+                "offset": [40.0,11.4,0.65],
+                "angle": 0.0
+            },
+            "avisa": {
+                "offset": [-1.2,-1.8,-0.2],
+                "angle": 0.0
+            },
+            "submersible": {
+                "offset": [0.0,-4.0,0.7],
+                "angle": 0.0
+            },
+            "submersible2": {
+                "offset": [-1.2,-1.8,-0.85],
+                "angle": 0.0
+            },
+            "dinghy": {
+                "offset": [-0.45,-0.4,0.3],
+                "angle": 0.0
+            },
+            "dinghy2": {
+                "offset": [-0.45,-0.4,0.3],
+                "angle": 0.0
+            },
+            "dinghy3": {
+                "offset": [-0.45,-0.4,0.3],
+                "angle": 0.0
+            },
+            "dinghy4": {
+                "offset": [-0.45,-0.4,0.3],
+                "angle": 0.0
+            },
+            "dinghy5": {
+                "offset": [-0.45,-0.4,0.3],
+                "angle": 0.0
+            },
+            "Kosatka": {
+                "offset": [1.2,79.0,7.1],
+                "angle": 0.0
+            },
+            "patrolboat": {
+                "offset": [-0.1,0.0,-0.1],
+                "angle": 0.0
+            },
+            "marquis": {
+                "offset": [-0.9,-0.6,0.9],
+                "angle": 0.0
+            },
+            "predator": {
+                "offset": [0.0,0.0,0.75],
+                "angle": 0.0
+            },
+            "speeder": {
+                "offset": [0.0,0.0,0.1],
+                "angle": 0.0
+            },
+            "squalo": {
+                "offset": [0.0,0.0,-0.2],
+                "angle": 0.0
+            },
+            "suntrap": {
+                "offset": [0.0,0.0,0.1],
+                "angle": 0.0
+            },
+            "tropic": {
+                "offset": [0.0,0.0,-0.2],
+                "angle": 0.0
+            },
+            "tropic2": {
+                "offset": [0.0,0.0,-0.2],
+                "angle": 0.0
+            },
+            "tug": {
+                "offset": [0.0,0.0,1.05],
+                "angle": 0.0
+            }
+        },
+        "stationPumps": {
+            "1933174915": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,2.11],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.055,0.238,1.35],
+                    "width": 50.0,
+                    "height": 40.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "1339433404": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,2.11],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.055,0.238,1.35],
+                    "width": 50.0,
+                    "height": 40.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "1694452750": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,2.11],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.055,0.238,1.35],
+                    "width": 50.0,
+                    "height": 40.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "-2007231801": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,2.11],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.055,0.238,1.35],
+                    "width": 50.0,
+                    "height": 40.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "-462817101": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,1.0],
+                "enableFrontScreen": true,
+                "EnableBackScreen": false,
+                "screenPosition": {
+                    "offset": [0.0735,0.18,1.21],
+                    "width": 35.333,
+                    "height": 61.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "-164877493": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,1.0],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.24,0.19,1.45],
+                    "width": 93.0,
+                    "height": 90.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "-469694731": {
+                "energyPump": false,
+                "ropePosition": [0.0,0.0,1.0],
+                "enableFrontScreen": true,
+                "EnableBackScreen": true,
+                "screenPosition": {
+                    "offset": [0.24,0.19,1.45],
+                    "width": 93.0,
+                    "height": 90.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": false
+            },
+            "1519880608": {
+                "energyPump": false,
+                "ropePosition": [0.0,-3.4,2.7],
+                "enableFrontScreen": true,
+                "EnableBackScreen": false,
+                "screenPosition": {
+                    "offset": [3.5,-0.03,2.145],
+                    "width": 46.0,
+                    "height": 53.0,
+                    "invertAngle": true
+                },
+                "rotAferSpawn": false
+            },
+            "140757512": {
+                "energyPump": true,
+                "ropePosition": [0.0,0.0,0.6],
+                "enableFrontScreen": true,
+                "EnableBackScreen": false,
+                "screenPosition": {
+                    "offset": [0.15,0.275,2.795],
+                    "width": 42.0,
+                    "height": 66.0,
+                    "invertAngle": false
+                },
+                "rotAferSpawn": true
+            }
+        },
+       
+        "petrolStations": [
+            {
+                "stationName": "Posto C LTD Liquor",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [-70.54,-1761.08,29.54],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C+E LTD Liquor",
+                "fuels": ["gasoline","gas","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [-723.95,-934.67,20.43],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [-724.98,-910.17,18.045,131.13]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C LTD Liquor",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1180.38,-330.47,69.32],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C LTD Liquor",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [-1799.05,802.78,138.66],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C LTD Liquor",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1687.43,4929.71,42.08],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C RON",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [175.22,-1561.73,29.27],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C+E RON",
+                "fuels": ["gasoline","gas","diesel","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [1208.53,-1402.36,35.23],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [1208.59,-1390.69,34.125,180.67]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [1211.75,-1390.61,34.125,180.67]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C RON",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [819.05,-1028.61,26.41],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C+E RON",
+                "fuels": ["gasoline","gas","diesel","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [-1436.81,-276.75,46.21],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [-1404.54,-276.75,45.145,40.0]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [-1412.56,-284.12,45.105,40.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C RON",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [2581.25,361.79,108.47],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C RON",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [-2555.16,2334.4,33.08],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C+E RON",
+                "fuels": ["gasoline","gas","diesel","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [180.07,6602.98,31.87],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [188.12,6599.13,30.795,188.90]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [180.9,6597.86,30.795,188.90]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [173.53,6596.59,30.795,188.90]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C+E GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [-319.67,-1471.46,30.55],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [647.63,284.5,102.075,150.0]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [641.86,287.76,102.135,150.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C+E GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [620.72,268.77,103.09],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [0.0,0.0,0.0,180.0]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [0.0,0.0,0.0,180.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [263.92,2608.15,44.86],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1039.56,2671.42,39.56],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1207.87,2660.65,37.9],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1785.83,3330.98,41.38],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [1701.97,6416.96,32.77],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C GLOBE OIL",
+                "fuels": ["gasoline","gas","diesel","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [154.95,6629.64,31.83],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C XERO",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [265.04,-1262.65,29.3],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C+E XERO",
+                "fuels": ["gasoline","gas","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [-525.45,-1211.33,18.19],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [-519.7,-1193.79,17.925,213.59]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [-529.87,-1194.31,17.155,160.64]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C+E XERO",
+                "fuels": ["gasoline","gas","ethanol","energy"],
+                "allowedPromo": true,
+                "stationCoords": [-2096.86,-321.51,13.17],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 51,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 140757512,
+                        "coords": [-2072.72,-298.8,12.065,174.0]
+                    },
+                    {
+                        "prop": 140757512,
+                        "coords": [-2066.15,-299.5,12.065,175.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto C XERO",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [49.51,2778.92,58.05],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C XERO",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [2005.11,3774.24,32.41],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C XERO",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [2680.05,3264.59,55.41],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto C XERO",
+                "fuels": ["gasoline","gas","ethanol"],
+                "allowedPromo": true,
+                "stationCoords": [-94.44,6419.35,31.49],
+                "stationDistance": 30,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 1,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": []
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [-1141.41577,-2856.459,12.9141283],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [-1141.41577,-2856.459,12.9141283,330.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [-739.21,-1453.07,5.01],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [-763.8582,-1435.29053,4.033486,50.0]
+                    },
+                    {
+                        "prop": -469694731,
+                        "coords": [-706.527466,-1463.94507,4.03521252,50.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [-1872.20935,2794.32,31.7979832],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [-1872.20935,2794.32,31.7979832,150.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [1772.10693,3231.35938,41.4170837],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [1772.10693,3231.35938,41.4170837,15.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [4871.93457,-5282.398,7.468642],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [4871.93457,-5282.398,7.468642,85.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto H XERO",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [3070.188,-4632.81738,14.2508545],
+                "stationDistance": 50,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 29,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": -469694731,
+                        "coords": [3070.188,-4632.81738,14.2508545,105.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [-1214.97,-2245.85,12.73],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [-1214.97522,-2245.852,12.7336006,150.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [-1217.6543,-2244.50928,12.9021244,-30.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [-2130.095,2863.2605,31.6681328],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [-2130.095,2863.2605,31.6681328,-60.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [-2131.55029,2866.229,31.7737045,120.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [1418.04248,2997.50269,39.3674469],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [1418.04248,2997.50269,39.3674469,45.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [1420.07715,2999.839,39.56385,-135.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [2128.55786,4820.218,40.0514259],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [2128.55786,4820.218,40.0514259,25.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [2125.69922,4819.095,40.2416534,25.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [4513.788,-4462.186,3.027458],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [4513.788,-4462.186,3.027458,20.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [4510.455,4463.245,3.19121265,20.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto A GLOBE OIL",
+                "fuels": ["avGas"],
+                "allowedPromo": true,
+                "stationCoords": [3083.223,-4822.99268,14.148632],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 32,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1890640474,
+                        "coords": [3083.223,-4822.99268,14.148632,15.0]
+                    },
+                    {
+                        "prop": 3832150195,
+                        "coords": [3086.89355,-4821.76758,14.2307358,-165.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto B RON",
+                "fuels": ["diesel"],
+                "allowedPromo": true,
+                "stationCoords": [11.5101833,-2795.77832,1.26639962],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 52,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1519880608,
+                        "coords": [11.5101833,-2795.77832,1.26639962,90.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto B RON",
+                "fuels": ["diesel"],
+                "allowedPromo": true,
+                "stationCoords": [-801.44635,-1416.48291,0.350897074],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 52,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1519880608,
+                        "coords": [-801.44635,-1416.48291,0.350897074,140.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto B RON",
+                "fuels": ["diesel"],
+                "allowedPromo": true,
+                "stationCoords": [3370.413,5183.93848,0.165444076],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 52,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1519880608,
+                        "coords": [3370.413,5183.93848,0.165444076,170.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto B RON",
+                "fuels": ["diesel"],
+                "allowedPromo": true,
+                "stationCoords": [1334.83215,4270.017,30.34748],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 52,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1519880608,
+                        "coords": [1334.83215,4270.017,30.34748,174.0]
+                    }
+                ]
+            },
+            {
+                "stationName": "Posto B RON",
+                "fuels": ["diesel"],
+                "allowedPromo": true,
+                "stationCoords": [5107.805,-5177.807,0.7788422],
+                "stationDistance": 20,
+                "mapBlip": {
+                    "enable": true,
+                    "blipId": 361,
+                    "blipColor": 52,
+                    "blipScale": 0.5
+                },
+                "spawnsPumps": [
+                    {
+                        "prop": 1519880608,
+                        "coords": [5107.805,-5177.807,0.7788422,90.0]
+                    }
+                ]
+            }
+        ]
+    },
+    "languagePTBR": { 
+        "commands": {
+            "setFuel": "combustivel",
+            "nozzlePick": "nozzlepick"
+        },
+
+        "keyMapping": {
+            "nozzlePick": { 
+                "description": "Pegar bico",
+                "key": "E"
+            }
+        },
+
+        "keyPress": {
+            "refuelAndStop": 45,
+            "refuelGallon": 47,
+            "refuelBattery": 74,
+            "startAndStopWaterPump": 182
+        },
+
+        "items": {
+            "battery": "bateria",
+            "deadBattery": "bateriadescarregada",
+            "gallon": "galao",
+            "emptyGallon": "galaovazio" 
+        },
+
+        "targetLabelOptions": {
+            "refuel": ": Reabastecer",
+            "refuelCan": ": Reabastecer Galão",
+            "rechargeBattery": ": Recarregar Bateria",
+            "startVehicleWash": ": Usar a mangueira",
+            "pickUp": ": Pegar",
+            "endRefueling": ": Encerrar reabastecimento",
+            "stopWash": ": Encerrar uso de mangueira"
+        },
+
+        "threadOptions": {
+            "refuel": "Pressione ~b~[R]~w~ para Reabastecer.",
+            "refuelCan": "Pressione ~b~[G]~w~ para Reabastecer galão.",
+            "rechargeBattery": "Pressione ~b~[H]~w~ para Recarregar bateria.",
+            "stopRefuel": "Pressione ~b~[R]~w~ para encerrar reabastecimento.",
+            "startWash": "Pressione ~b~[L]~w~ para usar a mangueira.",
+            "stopWash": "Pressione ~b~[L]~w~ para encerrar uso de mangueira."
+        },
+
+        "notifys": {
+            "leaveVehicle": "Saia do veículo para interagir!",
+            "privatePump": "Está bomba é particular, ela não pertence a nenhum posto de combustível.",
+            "electricityPump": "Você não pode reabastecer em uma bomba de eletricidade, procure bomba de combustível comum!",
+            "commonFuelPump": "Você não pode reabastecer em uma bomba de combustível comum, procure uma de eletricidade!",
+            "noFuel": "Este posto não possui o combustível que você precisa.",
+            "noCleanEnergy": "Esta bateria não está carregada com uma energia limpa.",
+            "noFuelInCan": "Este galão não possui o combustível que você precisa.",
+            "damagedPump": "A bomba de combustível está danificada, procure outra!",
+            "noDischargedBattery": "Você não possui uma bateria descarregada!",
+            "noEmptyCan": "Você não possui um galão vazio!",
+            "refueling": "Abastecendo:",
+            "refueling2": "Com desconto:",
+            "refueling3": "Preço:",
+            "interruptedRefueling": "A bomba de combustível foi danificada e o abastecimento foi interrompido",
+            "farFromTank": "Você está longe demais do tanque de combustível!",
+            "fullTank": "Tanque de combustível cheio!",
+            "chargedBattery": "Bateria do veículo carregada!",
+            "emptyCan": "Seu galão ficou vazio!",
+            "noEnergy": "Sua bateria ficou sem energia!",
+            "noVehicle": "Nenhum veículo próximo!",
+            "removeNozzle": "Você deve remover o bico de combustível antes de finalizar!",
+            "hoseTimeUp": "Seu tempo para usar a mangueira acabou!",
+            "hoseStored": "Mangueira guardada!",
+            "invalidFuel": "combustível invalido!",
+            "checkFuelName": "combustível, verifique se digitou o nome corretamente!",
+            "paidForRefueling": "Você pagou pelo abastecimento!",
+            "noItem": "Você não possui",
+            "noMoney": "Você não possui dinheiro suficiente!",
+            "refusedPayment": "Você recusou o paramento para abastecer.",
+            "paidForHose": "Você pagou para usar a mangueira!",
+            "fuelDiscount": "Alguns postos estão com descontos no preço do combustível:<br>"            
+        },
+
+        "requests": {
+            "finishRefuel": "Deseja finalizar o abastecimento de",
+            "finishRefuel2": "por",
+            "payToWaterPump": "Deseja pagar",
+            "payToWaterPump2": "para usar a mangueira por",
+            "payToWaterPump3": "segundos"
+        }
+    },
+
+    "languageENUS": { 
+        "commands": {
+            "setFuel": "fuel",
+            "nozzlePick": "nozzlepick"
+        },
+
+        "keyMapping": {
+            "nozzlePick": {
+                "description": "Pick Nozzle",
+                "key": "E"
+            }
+        },
+
+        "keyPress": {
+            "refuelAndStop": 45,
+            "refuelGallon": 47,
+            "refuelBattery": 74,
+            "startAndStopWaterPump": 182
+        },
+
+        "items": {
+            "battery": "battery",
+            "deadBattery": "dead battery",
+            "gallon": "gallon",
+            "emptyGallon": "empty gallon"
+        },
+
+        "targetLabelOptions": {
+            "refuel": ": Refuel",
+            "refuelCan": ": Refuel Gallon",
+            "rechargeBattery": ": Recharge Battery",
+            "startVehicleWash": ": Start Hose",
+            "pickUp": ": Pick Up",
+            "endRefueling": ": End refueling",
+            "stopWash": ": Stop using hose"
+        },
+
+        "threadOptions": {
+            "refuel": "Press ~b~[R]~w~ to Refuel.",
+            "refuelCan": "Press ~b~[G]~w~ to Refuel gallon.",
+            "rechargeBattery": "Press ~b~[H]~w~ to Recharge battery.",
+            "stopRefuel": "Press ~b~[R]~w~ to stop refueling.",
+            "startWash": "Press ~b~[L]~w~ to start using hose.",
+            "stopWash": "Press ~b~[L]~w~ to stop using hose."
+        },
+
+        "notifys": {
+            "leaveVehicle": "Leave the vehicle to interact!",
+            "privatePump": "This pump is private, it does not belong to any gas station.",
+            "electricityPump": "You cannot refuel at an electricity pump, look for a regular fuel pump!",
+            "commonFuelPump": "You cannot refuel at a regular fuel pump, look for an electricity one!",
+            "noFuel": "This station does not have the fuel you need.",
+            "noCleanEnergy": "This battery is not charged with clean energy.",
+            "noFuelInCan": "This gallon does not have the fuel you need.",
+            "damagedPump": "The fuel pump is damaged, look for another one!",
+            "noDischargedBattery": "You do not have a discharged battery!",
+            "noEmptyCan": "You do not have an empty gallon!",
+            "refueling": "Refueling:",
+            "refueling2": "With discount:",
+            "refueling3": "Price:",
+            "interruptedRefueling": "The fuel pump was damaged and refueling was interrupted.",
+            "farFromTank": "You are too far from the fuel tank!",
+            "fullTank": "Fuel tank full!",
+            "chargedBattery": "Vehicle battery charged!",
+            "emptyCan": "Your gallon is empty!",
+            "noEnergy": "Your battery ran out of energy!",
+            "noVehicle": "No vehicle nearby!",
+            "removeNozzle": "You must remove the fuel nozzle before finishing!",
+            "hoseTimeUp": "Your time to use the hose is up!",
+            "hoseStored": "Hose stored!",
+            "invalidFuel": "Invalid fuel!",
+            "checkFuelName": "Fuel, check if you typed the name correctly!",
+            "paidForRefueling": "You paid for refueling!",
+            "noItem": "You do not have",
+            "noMoney": "You do not have enough money!",
+            "refusedPayment": "You refused payment for refueling.",
+            "paidForHose": "You paid to use the hose!",
+            "fuelDiscount": "Some stations have discounts on fuel prices:<br>"
+        },
+
+        "requests": {
+            "finishRefuel": "Do you want to finish refueling",
+            "finishRefuel2": "for",
+            "payToWaterPump": "Do you want to pay",
+            "payToWaterPump2": "to use the hose for",
+            "payToWaterPump3": "seconds"
+        }
+    }
+}
