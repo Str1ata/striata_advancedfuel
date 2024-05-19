@@ -3,6 +3,7 @@
         "adminPermission": "admin.permissao",
         "threadMode": false,
         "targetMode": true,
+        "checkSpawnedProps": true,
         "spillOilAndnozzleEnergy": true,
         "discountsChance": 30,
         "discountsInterval": 60,
